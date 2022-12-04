@@ -1,0 +1,52 @@
+#title {
+text-align: center;
+background-color:rgb(112, 120, 129);
+color: black
+font-family: "Lucida Console", "Courier New", monospace;
+margin:0;
+padding: 10px 15px;
+broader-radius:15px;
+font-weight:bold;
+}
+
+body {
+    background-color: yellow
+    font-family: Courier, monospace;
+}
+
+.box-1 {
+background-color: white; 
+font-family: "Lucida Console", "Courier New", monospace;
+font-weight:bold;
+font-size: 20px;
+pading:10px;    
+}
+.my-form{
+    padding: 20px;
+
+}
+.my-form input[type="text"]{
+    width: 100%;
+}
+.my-form input[type="submit"]{
+    background-color:#333;
+    color:white;
+    padding:10px 15px;
+    border:none;
+}
+.my-form input[type="submit"]:hover{
+    background:red;
+    color:white;
+}
+
+.bio{
+    border:10px blue
+
+}
+/* id = #
+.shadow-text shadow when mouse is on input 
+line-height:1.6em; <- line heights in paragraph
+line-height:1.6em makes the distance between line of words
+should reuse classes
+id should be unique/ dont repeat id
+*/
